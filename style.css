@@ -36,7 +36,7 @@ form input[type="number"] {
 form select {
   width: 30%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   border-radius: 5px;
   font-size: 18px;
   appearance: none;
@@ -44,6 +44,11 @@ form select {
   background-position: calc(100% - 10px) center;
   background-size: 20px;
 }
+
+body {
+  background-color: #000; /* replace with your desired color */
+}
+
 
 form button[type="submit"] {
   width: 100%;
