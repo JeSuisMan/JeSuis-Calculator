@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JeSuis Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>JeSuis Calculator</h1>
+  </header>
+  <main>
+    <form>
+      <input type="number" id="num1" required>
+      <select id="operation" required>
+        <option value="">Select an operation</option>
+        <option value="+">Addition (+)</option>
+        <option value="-">Subtraction (-)</option>
+        <option value="*">Multiplication (*)</option>
+        <option value="/">Division (/)</option>
+      </select>
+      <input type="number" id="num2" required>
+      <button id="calculate" type="submit">Calculate</button>
+    </form>
+    <p id="result"></p>
+  </main>
+  <footer>
+    <p>&copy; 2023 JeSuis Calculator</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
